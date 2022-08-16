@@ -8,7 +8,8 @@ This code is designed to find Magneto Crystalline Energy (MAE) using VASP. To do
 Important parameters in MAE.py need to be changed by user (labeled by #usr).
   
 Example <ls> in calculation directory with inputs for W3MnB4:
-INCAR_univ job_ncl.sh job_std.sh MAE.py MAE.sbatch POSCAR POTCAR_B POTCAR_Mn POTCAR_W
+>>> ls
+>>> INCAR_univ job_ncl.sh job_std.sh MAE.py MAE.sbatch POSCAR POTCAR_B POTCAR_Mn POTCAR_W
 
 ## Outputs
 All outputs will go to the ./outputs folder in run directory.
