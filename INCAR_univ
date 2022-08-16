@@ -1,0 +1,55 @@
+SYSTEM = W3MnB4 ###
+
+GGA = PE  ###
+IBRION =-1 ###
+SIGMA = 0.1 ###
+ISMEAR = -1 ###
+
+NPAR = 1  ###
+ENCUT = 600 ###
+EDIFF = 0.0000001 ###
+EDIFFG = 0.000001
+
+ISYM=0
+ISPIN = 2 ###
+
+LDAU=.True. ###
+LDAUTYPE = ***  ###
+LDAUPRINT = 2 ###
+LDAUL = *LLL*  ###
+LDAUU =  *UUU* ###
+LDAUJ =  *JJJ*  ###
+
+IALGO=48 ###
+ 
+########################
+##   Collinear tags
+########################
+
+KGAMMA = .TRUE.   #_std_
+KSPACING = 0.1   #_std_
+NBANDS = *NNN_std*  #_std_
+NSW = 1  #_std_
+ISIF = 3 #_std_
+MAGMOM = *MMM_std*
+
+########################
+##   Non-Collinear tags
+########################
+
+NBANDS = *NNN_ncl*  #_ncl_
+VOSKOWN = 1  #_ncl_
+
+ICHARG = 11  #_ncl_
+ISTART = 1  #_ncl_
+
+LNONCOLLINEAR = .TRUE.  #_ncl_
+LSORBIT=.TRUE.  #_ncl_
+LORBIT = 11  #_ncl_
+MAGMOM= *MMM_ncl*
+GGA_COMPAT = .FALSE.  #_ncl_
+
+SAXIS = 0.0  0.0  1.0  #_ncl_
+
+
+
