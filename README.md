@@ -10,7 +10,7 @@ Important parameters in MAE.py need to be changed by user (labeled by #usr).
 Example <ls> in calculation directory with inputs for W3MnB4:
 INCAR_univ job_ncl.sh job_std.sh MAE.py MAE.sbatch POSCAR POTCAR_B POTCAR_Mn POTCAR_W
 
-##Outputs
+## Outputs
 All outputs will go to the ./outputs folder in run directory.
 1. E_vs_K_U*.png: plot showing convergence as a function of number of kpoints per atom
 2. EvsTheta_curves_U*.png: Energy as a function of ‘θ’ for different values of ‘φ’
@@ -22,6 +22,6 @@ All outputs will go to the ./outputs folder in run directory.
 8. INCAR: contains both collinear and noncollinear INCARs created by script
 9. OutResults.txt: Contain run information and magnetic properties calculated both in VASP output units and SI units.
   
-##Other output folders
+## Other output folders
 1. ./z: contain selected KPOINTS and ENCUT VASP non-collinear output file for the spin rotation runs.
 2. ./tempelates: Contains files created by the scripts for the beginning of the calculation
